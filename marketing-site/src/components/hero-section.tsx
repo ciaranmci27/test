@@ -8,7 +8,7 @@ import Link from "next/link"
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden px-4 py-20">
+    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden px-4 py-24">
       <div className="absolute inset-0 bg-gradient-to-br from-purple-600/20 via-transparent to-blue-600/20 animate-glow" />
       
       <div className="relative z-10 max-w-6xl mx-auto text-center">
