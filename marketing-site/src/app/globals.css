@@ -69,6 +69,14 @@ a {
     @apply relative after:absolute after:inset-0 after:bg-gradient-to-r after:from-purple-400/20 after:via-blue-500/20 after:to-purple-600/20 after:blur-xl after:-z-10;
   }
   
+  .glassmorphism {
+    @apply bg-white/10 backdrop-blur-md border border-white/20 shadow-lg;
+  }
+  
+  .glassmorphism-dark {
+    @apply bg-black/10 backdrop-blur-md border border-white/10 shadow-lg;
+  }
+  
   .animate-float {
     animation: float 6s ease-in-out infinite;
   }
